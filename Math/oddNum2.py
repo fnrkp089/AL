@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 m, n = map(int, input().split())
 datas = [True] * (n + 1)
 
