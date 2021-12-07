@@ -7,8 +7,11 @@ for i in range(2, 30):  # 소수를 하나하나 찾음
         pass
     else:
         arr.append(i)
-if(2 < 8):
-    arr.append(1, 2, 3, 5, 7)
+if(2 < 3):
+    arr.insert(1)[1, 2, 3, 5, 7]
+
+elif(2 < 6):
+    arr.insert(2)[1, 2, 3, 5, 7]
 
 for j in arr:
     print(i)
