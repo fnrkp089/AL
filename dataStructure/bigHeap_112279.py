@@ -10,4 +10,4 @@ for _ in range(n):
         else:
             print((heapq.heappop(heap)) * -1 )  # 배열안에 값이 존재한다면 해당값 제거
     else:
-        heapq.heappush(heap, i)  # 0이 아닐결우 최소힙자료구조로 입력값 저장
+        heapq.heappush(heap, i)  # 0이 아닐결우 최대힙자료구조로 입력값 저장
