@@ -3,11 +3,11 @@ from sys import stdin
 
 n, m = map(int, stdin.readline().rstrip().split())
 trees = list(map(int, stdin.readline().rstrip().split()))
-start, end = 0, max(trees)  # 시작과 끝.
+start, end = 0, max(trees)  # 시작과 끝점.(가장 긴것을 end로 정한다.)
 
 while start <= end:
-    mid = (start+end)//2
     tree = 0  # 잘린 나무 합
+    mid = (start+end)//2
     for i in trees:
         if i > mid:  # mid보다 큰 나무 높이는 잘림
             tree += i - mid
